@@ -1,37 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  Score
-  Rules
+    <title>Frontend Mentor | Rock, Paper, Scissors by Neeraj</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Bootstrap 5 CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Jquery CDN -->
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      defer
+    ></script>
+    <!-- Bootstrap 5 Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- Code Starts Here -->
+    <!-- ScoreBoard Section -->
+    <div class="container py-3 text-white">
+      <div
+        class="
+          border border-secondary border-3
+          p-3
+          rounded-3
+          d-flex
+          align-content-center
+          justify-content-between
+        "
+      >
+        <!-- Headline -->
+        <div class="d-flex align-items-center justify-content-start">
+          <img src="./images/logo.svg" alt="logo" class="img-fluid w-75" />
+        </div>
+        <!-- Scoreboard -->
+        <div
+          class="
+            bg-white
+            px-3
+            py-2
+            d-flex
+            align-content-center
+            justify-content-center
+            flex-column
+            rounded-3
+          "
+        >
+          <p class="text-primary p-0 m-0 text-center">Score</p>
+          <p class="text-dark m-0 p-0 text-center fs-1 fw-bold">12</p>
+        </div>
+      </div>
+    </div>
 
-  You Picked
-  The House Picked
-
-  You Win
-  You Lose
-
-  Play Again
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <!-- Selection Section -->
+    <div class="container h-50">
+      <div class="h-100 box mx-auto position-relative">
+        <img
+          src="./images/bg-triangle.svg"
+          alt="bg-triangle"
+          class="position-absolute translate-middle top-50 start-50 bg-triangle"
+        />
+        <div
+          class="user-action bg-primary rounded-circle position-absolute top-0 box-shadow-blue"
+        >
+          <div
+            class="
+              user-button
+              bg-white
+              rounded-circle
+              position-absolute
+              top-50
+              start-50
+              translate-middle
+              box-shadow-grey
+            "
+          >
+            <img
+              src="./images/icon-paper.svg"
+              alt="icon-rock"
+              class="position-absolute top-50 start-50 translate-middle"
+            />
+          </div>
+        </div>
+        <div
+          class="user-action bg-warning rounded-circle position-absolute end-0 box-shadow-yellow"
+        >
+          <div
+            class="
+              user-button
+              bg-white
+              rounded-circle
+              position-absolute
+              top-50
+              start-50
+              translate-middle
+              box-shadow-grey
+            "
+          >
+            <img
+              src="./images/icon-scissors.svg"
+              alt="icon-rock"
+              class="position-absolute top-50 start-50 translate-middle"
+            />
+          </div>
+        </div>
+        <div
+          class="
+            user-action
+            bg-danger
+            rounded-circle
+            position-absolute
+            bottom-0
+            start-50
+            translate-middle-x
+            box-shadow-red
+            mb-2
+          "
+        >
+          <div
+            class="
+              user-button
+              bg-white
+              rounded-circle
+              position-absolute
+              top-50
+              start-50
+              translate-middle
+              box-shadow-grey
+            "
+          >
+            <img
+              src="./images/icon-rock.svg"
+              alt="icon-rock"
+              class="position-absolute top-50 start-50 translate-middle"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Rules Button -->
+    <div
+      class="
+        container
+        d-flex
+        align-items-center
+        justify-content-center
+        p-3
+        mt-3
+      "
+    >
+      <button class="btn btn-outline-light rounded-3">Rules</button>
+    </div>
+    <!-- Code Ends Here -->
+    <!-- Attributions -->
+    <div class="attribution text-light mt-4">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://neerajgupta.codes">Neeraj Gupta</a>.
+    </div>
+  </body>
 </html>
