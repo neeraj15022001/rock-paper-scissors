@@ -1,0 +1,101 @@
+const rockElement = `
+<div
+              class="
+                user-action
+                bg-secondary
+                rounded-circle
+                mx-auto
+                position-relative
+                bg-danger
+                box-shadow-red
+                inserted-element
+              "
+            >
+              <div
+                class="
+                  user-button
+                  bg-white
+                  rounded-circle
+                  position-absolute
+                  top-50
+                  start-50
+                  translate-middle
+                  box-shadow-grey
+                "
+              >
+                <img
+                  src="./images/icon-rock.svg"
+                  alt="icon-rock"
+                  class="position-absolute top-50 start-50 translate-middle"
+                />
+              </div>
+            </div>
+`;
+
+const paperElement = `
+<div
+class="
+  user-action
+  bg-primary
+  rounded-circle
+  position-relative
+  mx-auto
+  box-shadow-blue
+  inserted-element
+"
+id="paper"
+>
+<div
+  class="
+    user-button
+    bg-white
+    rounded-circle
+    position-absolute
+    top-50
+    start-50
+    translate-middle
+    box-shadow-grey
+  "
+>
+  <img
+    src="./images/icon-paper.svg"
+    alt="icon-rock"
+    class="position-absolute top-50 start-50 translate-middle"
+  />
+</div>
+</div>
+`;
+
+const scissorElement = `
+<div
+class="
+  user-action
+  bg-warning
+  rounded-circle
+  position-relative
+  mx-auto
+  box-shadow-yellow
+  inserted-element
+"
+id="scissors"
+>
+<div
+  class="
+    user-button
+    bg-white
+    rounded-circle
+    position-absolute
+    top-50
+    start-50
+    translate-middle
+    box-shadow-grey
+  "
+>
+  <img
+    src="./images/icon-scissors.svg"
+    alt="icon-rock"
+    class="position-absolute top-50 start-50 translate-middle"
+  />
+</div>
+</div>
+`;

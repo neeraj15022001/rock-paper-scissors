@@ -15,31 +15,31 @@ body {
   );
 }
 .bg-triangle {
-    z-index: 1;
+  z-index: 1;
 }
 .user-action {
-    width: 8rem;
-    height: 8rem;
-    z-index: 2;
+  width: 8rem;
+  height: 8rem;
+  z-index: 2;
 }
 .box-shadow-red {
-    box-shadow: 0px 8px 0px #ce0015;
+  box-shadow: 0px 8px 0px #ce0015;
 }
 .box-shadow-blue {
-    box-shadow: 0px 8px 0px #005de7;
+  box-shadow: 0px 8px 0px #005de7;
 }
 .box-shadow-yellow {
-    box-shadow: 0px 8px 0px #e2aa01;
+  box-shadow: 0px 8px 0px #e2aa01;
 }
 .box-shadow-grey {
-    box-shadow: 0px 8px 0px #e9ecef inset;
+  box-shadow: 0px 8px 0px #e9ecef inset;
 }
 .user-button {
-    width: 6rem;
-    height: 6rem;
+  width: 6rem;
+  height: 6rem;
 }
 .box {
-    width: 375px;
+  width: 375px;
 }
 .attribution {
   font-size: 11px;
