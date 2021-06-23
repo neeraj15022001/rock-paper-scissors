@@ -72,7 +72,7 @@
     </div>
 
     <!-- Selection Section -->
-    <div class="container h-50 mt-lg-4">
+    <div class="container h-50 mt-lg-4 d-none">
       <div class="h-100 box mx-auto position-relative">
         <img
           src="./images/bg-triangle.svg"
@@ -155,6 +155,64 @@
             />
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Game Section -->
+    <div class="container h-50 mt-lg-4 mt-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="user-action bg-secondary rounded-circle mx-auto position-relative bg-danger box-shadow-red">
+              <div
+            class="
+              user-button
+              bg-white
+              rounded-circle
+              position-absolute
+              top-50
+              start-50
+              translate-middle
+              box-shadow-grey
+            "
+          >
+            <img
+              src="./images/icon-rock.svg"
+              alt="icon-rock"
+              class="position-absolute top-50 start-50 translate-middle"
+            />
+          </div>
+            </div>
+            <p class="text-white my-4 text-center text-uppercase">You Picked</p>
+          </div>
+          <div class="col">
+            <div class="user-action bg-secondary rounded-circle mx-auto position-relative bg-warning box-shadow-yellow win-animation">
+              <div
+            class="
+              user-button
+              bg-white
+              rounded-circle
+              position-absolute
+              top-50
+              start-50
+              translate-middle
+              box-shadow-grey
+            "
+          >
+            <img
+              src="./images/icon-scissors.svg"
+              alt="icon-rock"
+              class="position-absolute top-50 start-50 translate-middle"
+            />
+          </div>
+            </div>
+            <p class="text-white my-4 text-center text-uppercase"> the house Picked</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid d-flex flex-column align-items-center justify-content-center px-5 px-lg-0 mt-5">
+        <p class="display-2 text-center fw-bold text-white">You Win</p>
+        <button class="btn btn-light btn-lg w-100 rounded-3">Play Again</button>
       </div>
     </div>
     <!-- Rules Button -->
