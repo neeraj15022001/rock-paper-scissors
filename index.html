@@ -72,7 +72,7 @@
     </div>
 
     <!-- Selection Section -->
-    <div class="container h-50">
+    <div class="container h-50 mt-lg-4">
       <div class="h-100 box mx-auto position-relative">
         <img
           src="./images/bg-triangle.svg"
@@ -164,15 +164,37 @@
         d-flex
         align-items-center
         justify-content-center
+        justify-content-lg-end
         p-3
         mt-3
+        mt-lg-5
       "
     >
-      <button class="btn btn-outline-light rounded-3">Rules</button>
+      <button class="btn btn-outline-light px-4 px-lg-5 rounded-3" data-bs-toggle="modal" data-bs-target="#rulesModal">Rules</button>
+    </div>
+
+    <!-- Rules Modal -->
+    <div class="modal fade" id="rulesModal" tabindex="-1" aria-labelledby="rulesModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-fullscreen-lg-down">
+        <div class="modal-content px-lg-2 py-lg-4 p-3">
+          <div class="modal-header border-0">
+            <p class="modal-title fs-2 text-lg-start text-center w-100 fw-bold text-primary" id="rulesModalLabel">Rules</p>
+            <button type="button" class="btn-close d-none d-lg-block" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container d-flex align-items-center justify-content-center h-100">
+              <img src="./images/image-rules.svg" alt="image-rules" class="img-fluid">
+            </div>
+          </div>
+          <div class="modal-footer border-0 d-lg-none d-flex align-content-center justify-content-center">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Code Ends Here -->
     <!-- Attributions -->
-    <div class="attribution text-light mt-4">
+    <div class="attribution text-light mt-4 mt-lg-3">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
